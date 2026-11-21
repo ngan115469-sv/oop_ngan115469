@@ -187,7 +187,7 @@ public:
     void hien_thi() const {
         cout << "\nBai " << ma_bai << " [" << kich_thuoc << "] " << so_xe << "/" << suc_chua() << " xe" << endl;
         for (int i = 0; i < so_xe; i++) {
-            ds_xe[i]->hien_thi();  // ? Ða hình — t? g?i dúng hàm!
+            ds_xe[i]->hien_thi();  
         }
     }
 
